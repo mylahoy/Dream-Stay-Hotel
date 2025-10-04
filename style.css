@@ -1,4 +1,9 @@
 /* General Styles */
+.container{
+  width:90%;
+  max-width:1200px;
+  margin: auto;
+}
 .logo {
   max-width: 100%;
   height: auto;
@@ -54,7 +59,7 @@ nav {
 }
 }
 .slogan-banner {
-  font-size: 1,2 em;
+  font-size: 1em;
   ppadding: 0.5 em;
 }
 }
@@ -114,6 +119,10 @@ section {
   background: #fff;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   transition: box-shadow 0.2s;
+}
+.room-card {
+  flex-direction: column;
+  text-align:center;
 }
 
 .room:hover {
